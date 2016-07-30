@@ -48,11 +48,35 @@ function Area()
   <form name="form1">
       <input type="button" value="calcular" onclick=Area()>
    </form>
+
    
-   Ejercicio #5
-   
+   Ejercicio #7
+   <script language="javascript">
+        
+
+      //Fechas inicial y final
+
+          var Hoy=new Date()
+
+      var Nav=new Date(Hoy.getFullYear(), 11, 25)
+
+      var mseg_dia=1000*60*60*24
+
+      var dias
+      
+
+      if (Hoy.getMonth()==11 && Hoy.getDate()>25) 
+
+          Nav.setFullYear(Nav.getFullYear()+1) 
+
+      dias = Math.ceil((Nav.getTime()-Hoy.getTime())/(mseg_dia))
+
+      document.write("Quedan "+dias+" días hasta Navidad")
+
+</script>
+
  
- #Grados
+ Ejercicio #9
    <script>
 function convert(grados) {
     if (grados == "C") {
@@ -74,3 +98,9 @@ Es Igual<br>
 
 </body>
 
+
+Ejercicio #10
+
+<script type="text/javascript">
+alert(location.href);
+</script>
