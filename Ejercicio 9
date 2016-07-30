@@ -9,7 +9,6 @@ function convert(grados) {
     }
 }
 </script>
-
 <body>
 <p>
 Introduzca un número en uno de los campos de entrada por debajo:</p>
