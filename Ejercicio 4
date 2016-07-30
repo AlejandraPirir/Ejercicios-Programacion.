@@ -1,3 +1,4 @@
+ 
  <title> area de un triangulo </title> 
 <center> <h1> Calcula el area de un triangulo </h1>
 <body bgcolor="green">
@@ -13,7 +14,7 @@ function Area()
             altura = parseInt(altura);
             area = (base * altura)/2;
 
-            alert("El area del cuadrado es:" +area);
+            alert("El area del triangulo es:" +area);
         }
     </script>
   <form name="form1">
