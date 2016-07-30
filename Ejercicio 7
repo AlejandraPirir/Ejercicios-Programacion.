@@ -1,6 +1,5 @@
 <script language="javascript">
         
-
       //Fechas inicial y final
 
           var Hoy=new Date()
